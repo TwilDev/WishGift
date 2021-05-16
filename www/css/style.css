@@ -1,0 +1,451 @@
+body {                /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFF;
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+
+.ui-overlay-a {
+    
+    background-color:#FFF;
+    
+}
+
+h1 {
+    color : black;
+}
+
+.ui-header {
+    
+    background-color : #db666e!important;
+    border-color : #db666e!important;
+    border : none!important;
+    padding : .5rem;
+    
+}
+
+.ui-conent {
+    
+    background-color : #FFF!important;
+}
+
+.ui-page-theme-a {
+    
+    background-color : #FFF!important;
+}
+
+.header-title {
+    
+    display: inline-block!important;
+    font-size: 1.3rem!important;
+    text-align : left!important;
+    margin: 0!important;
+    padding-left : .1rem!important;
+    color : #FFF;
+    text-shadow: none!important;
+    font-weight : 640;
+}
+
+.back-arrow {
+    
+    float: left;
+    padding-left: .2rem;
+    padding-right: 1rem;
+    padding-top : 1.3rem;
+    font-size: 1rem;
+    color: #FFF;
+    text-shadow : none!important;
+}
+
+.delete-icon {
+    
+    padding-left: .2rem;
+    padding-right: .5rem;
+    padding-top : 1rem;
+    float: right;
+    font-size: 1.5rem;
+    color: #FFF;
+    text-shadow : none!important;
+}
+    
+}
+
+.nav-img-li {
+    
+    padding : .2rem!important;
+    
+}
+
+.ui-btn {
+    
+    background-color: #FFF!important;
+}
+
+.search-icon {
+    
+    padding-left : 3.3rem;
+    padding-top : 0rem;
+    height: 1.5rem;
+    width: 2.2rem;
+    opacity : 0.4;
+    margin-top: 0.9rem;
+    
+}
+
+.search-icon-label {
+    
+    font-size : 9px;
+    padding-left: 3.7rem;
+    margin-top : 0.3rem;
+    color: #888888;
+    margin-bottom : 0.2rem;
+}
+
+.home-icon {
+
+    height: 1.8rem;
+    width: 1.4rem;
+    opacity : 0.4;
+    
+}
+
+.add-icon {
+    
+    padding-top : 0rem;
+    padding-left : 2.4rem;
+    margin-top : 0.5rem;
+    margin-right: 9rem;
+    height: 2rem;
+    width: 2rem;
+    fill : #e582a0;
+}
+
+.add-icon-label {
+    
+    font-size : 9px;
+    padding-left: 2.2rem;
+    margin-right: 0rem;
+    margin-top : 0.2rem;
+    color: #888888;
+    margin-bottom : 0.2rem;
+}
+
+.user-icon {
+    
+    padding-left: 1.9rem;
+    padding-top : 0rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity : 0.4;
+    margin-top : 0.9rem;
+}
+
+.user-icon-label {
+    
+    font-size : 9px;
+    padding-left: 1.5rem;
+    margin-top : 0.25rem;
+    color: #888888;
+    margin-bottom : 0rem;
+}
+
+.search:active {
+    
+    fill : #e582a0;
+    border-top: 4px solid #e9e9e9;
+    
+}
+
+#mainNav {
+    
+    background-color : #FFF;
+    position : fixed;
+    
+}
+
+.ui-listview {
+    
+    background-color : #FFF!important;
+    
+}
+
+.wishlist-item-container {
+    
+    margin-left : 0.4rem;
+    margin-right : 0.4rem;
+    border-bottom: 2px solid #e9e9e9;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+.image-container {
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.selected-image-container {
+    
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.wishlist-item-list {
+    
+    list-style : none;
+    margin-bottom : 0.5rem;
+    margin-top : 0.5rem;
+    padding-left : 0!important;
+    font-size : 16px;
+}
+
+.wishlist-item-title {
+    
+    font-weight : 400!important;
+
+}
+
+.test-float {
+    
+    float : right;
+    width : 50%;
+}
+
+
+.wishlist-item-price {
+    
+    font-weight : 400!important;
+    
+}
+
+.wishlist-item-price {
+    
+    float: left;
+    padding-right : 0.7rem;
+    margin-top : 1rem;
+}
+
+.price-container {
+    
+    float: left;
+    font-weight : 400!important;
+    margin-top : 1rem;
+}
+
+.wishlist-item-desc {
+    
+    padding-left : .3rem;
+    margin-top: 0;
+    
+}
+
+.wishlist-item-details {
+    
+    margin-left : 0.1rem;
+    margin-right : 0.1rem;
+    margin-top : 0.2rem;
+  
+}
+
+.selected-label {
+    
+    display: inline-block!important;
+    margin-top : 1em!important;
+    margin-bottom: .1em;
+    font-weight : 400!important;
+}
+
+.selected-item {
+
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: .1em;
+    font-weight : 400!important
+}
+
+
+
+.selected-item-loc {
+
+    padding-left : 10px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+
+#selectedImageContainer {
+    
+    padding-bottom: 1.5rem;
+    
+}
+
+.selectedLabelSection {
+    
+    padding-bottom : 1rem;
+    border-bottom: 1px solid #e9e9e9;
+    font-weight : 400!important;
+}
+
+#wishlistSelectedName {
+    
+    font-weight : 400!important;
+    
+}
+
+#editWishlistItem {
+    
+
+    float: right;
+    font-size: 1.3rem;
+    
+}
+
+#editWishlistImg {
+    
+    padding-bottom : 0.5rem;
+    float: right;
+    font-size: 1.3rem;
+       
+}
+
+#myAccountHeader {
+    
+    padding-left: 1em;
+}
+
+.change-account-text {
+    
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size : 18px;
+    
+}
+
+.form-error {
+    
+    margin-top : 10rem;
+    margin: auto;
+    text-align: center;
+    color : crimson;
+    font-size : 18px;
+    
+}
+
+#login {
+    
+    background-color : #db666e!important;
+        margin-right: 2rem;
+}
+
+#register {
+    
+    background-color : #db666e!important;
+}
+
+.login-head {
+    
+    margin : 0;
+    text-align : center;
+
+    
+}
+
+.login-head h1 {
+    
+    color : #FFF;
+    text-shadow : none;
+    font-size : 50px;
+    margin-top: 8rem;
+
+    
+}
+
+.login-subhead {
+    
+    margin: 0;
+    text-align: center;
+    
+}
+
+.login-subhead {
+    
+    color: #FFF;
+    text-shadow: none;
+    font-size : 22px;
+    
+}
+
+#loginForm {
+    
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#registerForm {
+    
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#login-btn {
+    
+    margin-top : 3rem;    
+}
+
+#register-btn {
+    
+    margin-top : 3rem;
+}
+
+.login-smalltext {
+    
+    padding-top: 2rem;
+    display : block;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow : none;
+    border: none;
+    color : #FFF!important;
+    font-weight : 300!important;
+    font-size : 18px;
+    
+}
+
+#home {
+    
+     background-color : #db666e!important;
+}
+
+.search-container {
+    
+    padding-bottom: 30px;
+    display : none;
+    transition-delay: 2s;
+}
+
+#wishlistItemSearchContainer {
+    
+    padding-top: 1.3rem!important;
+    padding-bottom : 0px!important;
+}
+
+#wishlistMap {
+    
+    position: absolute;
+    top : 70;
+    bottom: 0;
+    left : 0;
+    right: 0;
+}
+
+.no-map {
+    
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 18px;
+}
+
+/* Landscape layout (with min-width) */
